@@ -24,7 +24,6 @@ public class _017_DecoderEncoder {
     }
 
     public static void main(String[] args) {
-
         String data=getUser();
         System.out.println("Kullanıcı girdiği data: "+data);
         String encode= getEncoder(data);
