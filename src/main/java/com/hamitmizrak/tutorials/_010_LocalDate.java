@@ -1,33 +1,25 @@
 package com.hamitmizrak.tutorials;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.Locale;
+
 public class _010_LocalDate {
     public static void main(String[] args) {
-        //break:    döngü kırmak
-        //return:   method kırma
-        //continue: sadece o alanda es geçip devam ediyor.
+        //1900 ekle veya çıkar
+        Date date=new Date();
+        System.out.println(date);
+        System.out.println(date.getDate());
+        //date.setMonth(5);
+        System.out.println(date.getMonth());
+        System.out.println(date.getYear()+1900);
 
-        // 3tane loop
-        //for
-        for(int i=0; i<=10; i+=1){
-            System.out.print(i+" ");
-        }
-        //sonsuz for(;;){}
-        System.out.println("\n*******************");
+        Locale local=new Locale("tr","TR");
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd-MMMM-yyyy ",local);
+        String dateChange=simpleDateFormat.format(date);
+        System.out.println(dateChange);
 
-        //while
-       int k=0;
-        while(k<=10){
-            System.out.print(k+" ");
-            k++;
-        }
-        // sonsuz while(true){}
-        System.out.println("\n*******************");
-        //do-while
-        int m=0;
-        do{
-            System.out.print(m+" ");
-            m++;
-        }while(m<=10);
-
+        System.out.println(new Date(System.currentTimeMillis()));
     }
 }
