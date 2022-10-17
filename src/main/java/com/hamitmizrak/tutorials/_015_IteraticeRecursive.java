@@ -32,7 +32,7 @@ public class _015_IteraticeRecursive {
             return 1;
         return number * recursiveMethod(number - 1);
     }
-
+    // 5 * 4 * 3 * 2 * 1
     public static void resultMain() throws HamitMizrakException {
         int number = userData();
 

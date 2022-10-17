@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="java core continue...">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_014_RandomUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_015_IteraticeRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_016_Enum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_015_IteraticeRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_015_IteraticeRecursive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +50,9 @@
       <recent name="com.hamitmizrak.tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._015_IteraticeRecursive">
-    <configuration name="_011_ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._011_ExceptionHandling" />
+  <component name="RunManager" selected="Application.Deneme">
+    <configuration name="Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials.Deneme" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deneme" />
         <item itemvalue="Application._015_IteraticeRecursive" />
         <item itemvalue="Application._014_RandomUID" />
         <item itemvalue="Application._013_Methods" />
         <item itemvalue="Application._012_ExceptionHandling" />
-        <item itemvalue="Application._011_ExceptionHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
-      <workItem from="1666018627546" duration="12759000" />
+      <workItem from="1666018627546" duration="13597000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666031393748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="java core continue...">
+      <created>1666033560064</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666033560064</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
