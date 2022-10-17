@@ -24,6 +24,9 @@ public class _00_Examples {
         // while sonsuz döngü   ==> while(true) {}
         // for sonsuz döngü     ==> for(;;) {}
 
+        // String tersten yazdıran algoritma java => avaj
+        // Kullanıcı tarafında belirtilen sayıya kadar fibonacci sayısını bulan algoritma ?
+
 
     }
 

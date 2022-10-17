@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="java core continue...">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/HamitMizrakException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_011_ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_012_ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_013_Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_014_RandomUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_015_IteraticeRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_010_LocalDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_010_LocalDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_009_Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_009_Loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,33 +52,7 @@
       <recent name="com.hamitmizrak.tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._013_Methods">
-    <configuration name="_009_Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._009_Loop" />
-      <module name="TechCareerAirties" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_010_LocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._010_LocalDate" />
-      <module name="TechCareerAirties" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._015_IteraticeRecursive">
     <configuration name="_011_ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._011_ExceptionHandling" />
       <module name="TechCareerAirties" />
@@ -121,6 +92,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_014_RandomUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._014_RandomUID" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_015_IteraticeRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._015_IteraticeRecursive" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TechCareerAirtiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TechCareerAirties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hamitmizrak.TechCareerAirtiesApplication" />
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._015_IteraticeRecursive" />
+        <item itemvalue="Application._014_RandomUID" />
         <item itemvalue="Application._013_Methods" />
         <item itemvalue="Application._012_ExceptionHandling" />
         <item itemvalue="Application._011_ExceptionHandling" />
-        <item itemvalue="Application._010_LocalDate" />
-        <item itemvalue="Application._009_Loop" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
-      <workItem from="1666018627546" duration="10546000" />
+      <workItem from="1666018627546" duration="12759000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666029266038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java core continue...">
+      <created>1666031393748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666031393748</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +278,24 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_008_Conditional.java</url>
           <line>4</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_015_IteraticeRecursive.java</url>
+          <line>18</line>
+          <properties class="com.hamitmizrak.tutorials._015_IteraticeRecursive" method="facResult">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_015_IteraticeRecursive.java</url>
+          <line>6</line>
+          <properties class="com.hamitmizrak.tutorials._015_IteraticeRecursive" method="userData">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
