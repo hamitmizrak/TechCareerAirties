@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="spring init first commit" />
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="properties">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_001_WhatIsJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_002_StringTutorials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_003_Scannner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_004_Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_005_Cast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_006_StringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -22,19 +38,75 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/spring/TechCareerAirties/src/main/resources/templates",
+    "last_opened_file_path": "D:/spring/TechCareerAirties/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\TechCareerAirties\src\main\resources" />
       <recent name="D:\spring\TechCareerAirties\src\main\resources\templates" />
       <recent name="D:\spring\TechCareerAirties\src\main\resources\public.error" />
       <recent name="D:\spring\TechCareerAirties" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hamitmizrak.tutorials" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._006_StringMethod">
+    <configuration name="_001_WhatIsJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._001_WhatIsJava" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_002_StringTutorials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._002_StringTutorials" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_004_Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._004_Math" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_006_StringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._006_StringMethod" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TechCareerAirtiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TechCareerAirties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hamitmizrak.TechCareerAirtiesApplication" />
@@ -42,6 +114,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._006_StringMethod" />
+        <item itemvalue="Application._004_Math" />
+        <item itemvalue="Application._002_StringTutorials" />
+        <item itemvalue="Application._001_WhatIsJava" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
-      <workItem from="1666018627546" duration="1586000" />
+      <workItem from="1666018627546" duration="5938000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -60,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666019967669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="properties">
+      <created>1666020621852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666020621852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring init first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring init first commit" />
+    <MESSAGE value="properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties" />
   </component>
 </project>
