@@ -30,5 +30,8 @@ public class _00_Examples {
         //Dizi
         //Bir dizide 1-10 arasında rastgele sayılar oluştursun ve bu sayılardan tekrar eden sayılardan kaç tane olduğunu ve tekrarsız veriler algoritma yazalım ?
 
+
+
+
     }
 }
