@@ -7,7 +7,7 @@ public class _00_Examples {
        // kullanıcıdan aldığım bir sayıyı negatif mi pozitif mi hesaplayana lagoritma
        // kullanıcıdan aldığım bir yapınını harf mi, sayı mı , özel karakttermi ? (Character.isLetter, Character.isDigit)
 
-        //Vize Final
+        // Vize Final
         // Vize Final Ödevi
         // kullanıcıdan alınan vize ve final notuna göre geçme(ortalama) Algoritması
         // eğer kullanıcı vize veya final 0(sıfır) bir değer girerse sistemden atsın
@@ -27,7 +27,5 @@ public class _00_Examples {
         // String tersten yazdıran algoritma java => avaj
         // Kullanıcı tarafında belirtilen sayıya kadar fibonacci sayısını bulan algoritma ?
 
-
     }
-
 }

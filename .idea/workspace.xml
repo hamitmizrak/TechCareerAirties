@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Enum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_017_DecoderEncoder.java" afterDir="false" />
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Encoder Decoder">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_018_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GJObcI17yzQPkObRxnVrl7gMLo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -35,7 +44,8 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/spring/TechCareerAirties/src/main/java/com/hamitmizrak/tutorials",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "c009e43b2842fa6ee22c007951762eb7"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,22 +60,9 @@
       <recent name="com.hamitmizrak.tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._017_DecoderEncoder">
+  <component name="RunManager" selected="Application._018_Array">
     <configuration name="Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials.Deneme" />
-      <module name="TechCareerAirties" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_013_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._013_Methods" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_018_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._018_Array" />
+      <module name="TechCareerAirties" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TechCareerAirtiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TechCareerAirties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hamitmizrak.TechCareerAirtiesApplication" />
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._018_Array" />
         <item itemvalue="Application._017_DecoderEncoder" />
         <item itemvalue="Application.Deneme" />
         <item itemvalue="Application._015_IteraticeRecursive" />
         <item itemvalue="Application._014_RandomUID" />
-        <item itemvalue="Application._013_Methods" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
-      <workItem from="1666018627546" duration="14296000" />
+      <workItem from="1666018627546" duration="14876000" />
+      <workItem from="1666103294666" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -199,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666034386584</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Encoder Decoder">
+      <created>1666035152393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666035152394</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Encoder Decoder">
+      <created>1666035179407</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666035179407</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +247,8 @@
     <MESSAGE value="String , cast , Scanner , StringBuilder" />
     <MESSAGE value="java core continue..." />
     <MESSAGE value="Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enum" />
+    <MESSAGE value="Encoder Decoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encoder Decoder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
