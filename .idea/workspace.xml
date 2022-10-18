@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_020_Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_019_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_019_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_017_DecoderEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_017_DecoderEncoder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <recent name="com.hamitmizrak.tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._019_Array">
+  <component name="RunManager" selected="Application.InnerMainClass">
     <configuration name="Deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials.Deneme" />
       <module name="TechCareerAirties" />
@@ -75,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_015_IteraticeRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._015_IteraticeRecursive" />
+    <configuration name="InnerMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials.InnerMainClass" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerMainClass" />
         <item itemvalue="Application._019_Array" />
         <item itemvalue="Application._018_Array" />
         <item itemvalue="Application._017_DecoderEncoder" />
         <item itemvalue="Application.Deneme" />
-        <item itemvalue="Application._015_IteraticeRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
       <workItem from="1666018627546" duration="14876000" />
-      <workItem from="1666103294666" duration="2554000" />
+      <workItem from="1666103294666" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666105836024</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Array">
+      <created>1666106712094</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666106712094</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
