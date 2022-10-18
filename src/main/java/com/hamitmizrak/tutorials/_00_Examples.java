@@ -1,9 +1,17 @@
 package com.hamitmizrak.tutorials;
 
 public class _00_Examples {
+    public static void hesapMakinesi(){}
 
+    public static void isNegatif(){}
     public static void main(String[] args) {
+
+        hesapMakinesi();
+        isNegatif();
        // hesap makine 4 işlemli
+
+
+
        // kullanıcıdan aldığım bir sayıyı negatif mi pozitif mi hesaplayana lagoritma
        // kullanıcıdan aldığım bir yapınını harf mi, sayı mı , özel karakttermi ? (Character.isLetter, Character.isDigit)
 

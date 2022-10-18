@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Collections">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/oop/interfacex/ICustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/oop/interfacex/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/oop/interfacex/MarketCode.java" afterDir="false" />
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
       <workItem from="1666018627546" duration="14876000" />
-      <workItem from="1666103294666" duration="13730000" />
+      <workItem from="1666103294666" duration="14477000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -270,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666114411735</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="interface">
+      <created>1666120715971</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666120715971</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +302,8 @@
     <MESSAGE value="Array" />
     <MESSAGE value="inner class" />
     <MESSAGE value="Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
