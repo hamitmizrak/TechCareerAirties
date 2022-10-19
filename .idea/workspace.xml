@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Data set">
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="forEach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_024_StreamApi1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_024_StreamApi1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/oop/abstractx/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/oop/abstractx/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/oop/abstractx/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/oop/abstractx/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_00_Examples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_023_Collections.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_023_Collections.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,7 @@
       <workItem from="1666103294666" duration="14750000" />
       <workItem from="1666178012225" duration="61000" />
       <workItem from="1666179471846" duration="740000" />
-      <workItem from="1666186272226" duration="3483000" />
+      <workItem from="1666186272226" duration="5033000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -296,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666191784068</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="forEach">
+      <created>1666192755043</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666192755043</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +329,8 @@
     <MESSAGE value="interface" />
     <MESSAGE value="revize" />
     <MESSAGE value="Data set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data set" />
+    <MESSAGE value="forEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="forEach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,7 +12,9 @@ count   => sayma
 */
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class _024_StreamApi1 {
 
@@ -61,8 +63,51 @@ public class _024_StreamApi1 {
         });
     }
 
+    public static void streamSortedSmallToLargeMethod(){
+        List<String> list=collectionListData().stream().sorted().collect(Collectors.toList());
+        list.forEach((temp)->{
+            System.out.print(temp+" ");
+        });
+    }
+
+    public static void streamSortedLargeToSmallMethod(){
+       collectionListData()
+                .stream()
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList())
+                .forEach((temp)->{
+                 System.out.print(temp+" ");
+                });
+    }
+
+    public static void  streamLimitMethod(){
+        collectionListData()
+                .stream()
+                .sorted()
+                .limit(5)
+                .collect(Collectors.toList())
+                .forEach((temp)->{
+                    System.out.print(temp+" ");
+                });
+    }
+
+    public static void  streamDistinctMethod(){
+        collectionListData()
+                .stream()
+                .sorted()
+                .distinct()
+                .limit(3)
+                .collect(Collectors.toList()).forEach((temp)->{
+            System.out.print(temp.toUpperCase()+"("+temp.length()+") ");
+        });
+    }
+
     //PSVM
     public static void main(String[] args) {
-        streamForEachMethod();
+        //streamForEachMethod();
+        //streamSortedSmallToLargeMethod();
+        //streamSortedLargeToSmallMethod();
+        //streamLimitMethod();
+        streamDistinctMethod();
     }
 }
