@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="interface">
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="revize">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_024_StreamApi1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_00_Examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_023_Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_023_Collections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/spring/TechCareerAirties/src/main/java/com/hamitmizrak/oop/abstractx",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "c009e43b2842fa6ee22c007951762eb7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/spring/microservis-product-spring-boot&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c009e43b2842fa6ee22c007951762eb7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\spring\TechCareerAirties\src\main\java\com\hamitmizrak\oop\abstractx" />
@@ -57,9 +58,9 @@
       <recent name="D:\spring\TechCareerAirties\src\main\resources\public.error" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hamitmizrak.tutorials" />
       <recent name="com.hamitmizrak.oop.extendsx" />
       <recent name="com.hamitmizrak.oop" />
-      <recent name="com.hamitmizrak.tutorials" />
     </key>
   </component>
   <component name="RunManager" selected="Application.com.hamitmizrak.oop.abstractx.ExtendsMainClass">
@@ -154,7 +155,10 @@
       <option name="presentableId" value="Default" />
       <updated>1666018625143</updated>
       <workItem from="1666018627546" duration="14876000" />
-      <workItem from="1666103294666" duration="14477000" />
+      <workItem from="1666103294666" duration="14750000" />
+      <workItem from="1666178012225" duration="61000" />
+      <workItem from="1666179471846" duration="740000" />
+      <workItem from="1666186272226" duration="2527000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666120715971</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="revize">
+      <created>1666121578357</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666121578357</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +314,8 @@
     <MESSAGE value="inner class" />
     <MESSAGE value="Collections" />
     <MESSAGE value="interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface" />
+    <MESSAGE value="revize" />
+    <option name="LAST_COMMIT_MESSAGE" value="revize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

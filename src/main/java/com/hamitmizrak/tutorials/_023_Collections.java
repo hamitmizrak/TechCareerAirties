@@ -28,7 +28,8 @@ public class _023_Collections<T> {
         }*/
 
         //3
-        /*System.out.println("*******************");
+        /*
+        System.out.println("*******************");
         Iterator iterator=listem.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
