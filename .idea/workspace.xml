@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Stream , Method referances">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/annotationdata/Deneme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/annotationdata/ParameterDataMinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/annotationdata/PersonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_025_Annotation.java" afterDir="false" />
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Annotation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/multithreadingx/MultiProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/socket/oneway/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/socket/oneway/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_024_StreamApi1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/tutorials/_024_StreamApi1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ValidationMessages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages_tr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValidationMessages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidationMessages_tr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_024_StreamApi1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/tutorials/_024_StreamApi1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,13 +71,13 @@
       <recent name="com.hamitmizrak.oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._024_StreamApi1">
-    <configuration name="ExtendsMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.oop.extendsx.ExtendsMainClass" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.socket.oneway.Client" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.oop.extendsx.*" />
+          <option name="PATTERN" value="com.hamitmizrak.socket.oneway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_022_Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._022_Generics" />
+    <configuration name="MultiProcessing (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.multithreadingx.MultiProcessing" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="PATTERN" value="com.hamitmizrak.multithreadingx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_023_Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._023_Collections" />
+    <configuration name="MultiProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.multithreadingx.MultiProcessing" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="PATTERN" value="com.hamitmizrak.multithreadingx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_024_StreamApi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.tutorials._024_StreamApi1" />
+    <configuration name="MultiProcessing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.multithreadingx.MultiProcessing2" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.tutorials.*" />
+          <option name="PATTERN" value="com.hamitmizrak.multithreadingx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.hamitmizrak.oop.abstractx.ExtendsMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.oop.abstractx.ExtendsMainClass" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.socket.oneway.Server" />
       <module name="TechCareerAirties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.annotationdata.*" />
+          <option name="PATTERN" value="com.hamitmizrak.socket.oneway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._024_StreamApi1" />
-        <item itemvalue="Application.com.hamitmizrak.oop.abstractx.ExtendsMainClass" />
-        <item itemvalue="Application.ExtendsMainClass" />
-        <item itemvalue="Application._023_Collections" />
-        <item itemvalue="Application._022_Generics" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.MultiProcessing (1)" />
+        <item itemvalue="Application.MultiProcessing" />
+        <item itemvalue="Application.MultiProcessing2" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +166,7 @@
       <workItem from="1666103294666" duration="14750000" />
       <workItem from="1666178012225" duration="61000" />
       <workItem from="1666179471846" duration="740000" />
-      <workItem from="1666186272226" duration="10957000" />
+      <workItem from="1666186272226" duration="14027000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -318,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666198294731</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Annotation">
+      <created>1666201728093</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666201728093</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +361,8 @@
     <MESSAGE value="Data set" />
     <MESSAGE value="forEach" />
     <MESSAGE value="Stream , Method referances" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream , Method referances" />
+    <MESSAGE value="Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
