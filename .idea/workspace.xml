@@ -7,8 +7,7 @@
     <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Socket">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/BlogAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/BlogAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/FileClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/FileClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/FilePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/FilePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/ProjectDescription" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/project/step1/ProjectDescription" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,9 @@
       <recent name="D:\spring\TechCareerAirties\src\main\resources" />
       <recent name="D:\spring\TechCareerAirties\src\main\resources\templates" />
       <recent name="D:\spring\TechCareerAirties\src\main\resources\public.error" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spring\TechCareerAirties\src\main\java\com\hamitmizrak\graduationproject\core" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hamitmizrak.tutorials" />
@@ -160,7 +162,7 @@
       <workItem from="1666103294666" duration="14750000" />
       <workItem from="1666178012225" duration="61000" />
       <workItem from="1666179471846" duration="740000" />
-      <workItem from="1666186272226" duration="15681000" />
+      <workItem from="1666186272226" duration="16527000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -337,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666204901358</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Socket">
+      <created>1666206454484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666206454484</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,13 +6,14 @@
     // 3-)USER(X-, W- ,R+) x=execute w=write r=read
     // step.1 -) Sonrasında ekranda Seçim için
     // ### SEÇIM YAPINIZ ###
-    // 0-)Çıkış
+
     // 1-)Dosya oluştur
     // 2-)Dosya Yaz
     // 3-)Dosya Oku
     // 4-)Dosya Sil
     // 5-)Dosya Bilgileri
     // 6-)Rol değiştir
+    // 7-)Çıkış
 
     // 7-)Bütün Dosyalar
     // step.3 -) File için CRUD işlemi yapacak bir algoritma yapınız ?
