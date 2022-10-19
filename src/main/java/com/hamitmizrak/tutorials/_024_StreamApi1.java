@@ -40,14 +40,14 @@ public class _024_StreamApi1 {
 
     //Array'ı => Liste çevir
     public static List<String> arrayToList() {
-        return  List.of(strArray());
+        return List.of(strArray());
     }
 
-    public static void streamForEachMethod(){
+    public static void streamForEachMethod() {
         //List<String> list= collectionListData();
-        List<String> list= arrayToList();
-        for (int i = 0; i <list.size() ; i++) {
-            System.out.print(list.get(i)+" ");
+        List<String> list = arrayToList();
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i) + " ");
         }
         System.out.println("\n*******************");
         //forEach
@@ -58,48 +58,91 @@ public class _024_StreamApi1 {
         list.forEach(System.out::println);*/
 
         //forEach Lambda Expression
-        list.forEach( (temp)->{
-            System.out.print(temp.toUpperCase().substring(0,3)+" ");
+        list.forEach((temp) -> {
+            System.out.print(temp.toUpperCase().substring(0, 3) + " ");
         });
     }
 
-    public static void streamSortedSmallToLargeMethod(){
-        List<String> list=collectionListData().stream().sorted().collect(Collectors.toList());
-        list.forEach((temp)->{
-            System.out.print(temp+" ");
+    public static void streamSortedSmallToLargeMethod() {
+        List<String> list = collectionListData().stream().sorted().collect(Collectors.toList());
+        list.forEach((temp) -> {
+            System.out.print(temp + " ");
         });
     }
 
-    public static void streamSortedLargeToSmallMethod(){
-       collectionListData()
+    public static void streamSortedLargeToSmallMethod() {
+        collectionListData()
                 .stream()
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList())
-                .forEach((temp)->{
-                 System.out.print(temp+" ");
+                .forEach((temp) -> {
+                    System.out.print(temp + " ");
                 });
     }
 
-    public static void  streamLimitMethod(){
+    public static void streamLimitMethod() {
         collectionListData()
                 .stream()
                 .sorted()
                 .limit(5)
                 .collect(Collectors.toList())
-                .forEach((temp)->{
-                    System.out.print(temp+" ");
+                .forEach((temp) -> {
+                    System.out.print(temp + " ");
                 });
     }
 
-    public static void  streamDistinctMethod(){
+    public static void streamDistinctMethod() {
         collectionListData()
                 .stream()
                 .sorted()
                 .distinct()
                 .limit(3)
-                .collect(Collectors.toList()).forEach((temp)->{
-            System.out.print(temp.toUpperCase()+"("+temp.length()+") ");
-        });
+                .collect(Collectors.toList()).forEach((temp) -> {
+                    System.out.print(temp.toUpperCase() + "(" + temp.length() + ") ");
+                });
+    }
+
+    public static void streamCountMethod() {
+        long counter = collectionListData()
+                .stream()
+                .sorted()
+                .count();
+        System.out.println(counter);
+    }
+
+    //listeyi küçükten büyüğe doğru sıralayalım
+    //bu listedeli malatya geçmeyen verileri ekranda gösterin
+    public static void streamFilterMethod() {
+        String city = "malatya";
+        collectionListData()
+                .stream()
+                .filter((temp) -> !city.equalsIgnoreCase(temp))
+                .collect(Collectors.toList())
+                .forEach((temp) -> {
+                    System.out.print(temp + " ");
+                });
+    }
+
+    // random 1-10 arasında 8 tane sayı olsun ve bu sayılardan çift olanaları listeyelim ?
+
+    //her bir data verisini 1 artırırın ?
+    public static void streamMapMethod() {
+        collectionListData()
+                .stream()
+                .map((temp) -> temp + 1)
+                .collect(Collectors.toList())
+                .forEach((temp) -> {
+                    System.out.print(temp + " ");
+                });
+    }
+
+    public static void streamMethodReferances() {
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(new Student(1L,"username1","surname1",11));
+        studentList.add(new Student(2L,"username2","surname2",22));
+        studentList.add(new Student(3L,"username3","surname3",33));
+        studentList.add(new Student(4L,"username4","surname4",44));
+        studentList.stream().forEach(Student::numberMethod);
     }
 
     //PSVM
@@ -108,6 +151,11 @@ public class _024_StreamApi1 {
         //streamSortedSmallToLargeMethod();
         //streamSortedLargeToSmallMethod();
         //streamLimitMethod();
-        streamDistinctMethod();
+        //streamDistinctMethod();
+        // streamCountMethod();
+        //streamFilterMethod();
+        //streamMapMethod();
+        streamMethodReferances();
+
     }
 }
