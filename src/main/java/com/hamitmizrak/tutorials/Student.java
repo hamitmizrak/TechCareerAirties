@@ -17,8 +17,8 @@ public class Student {
     private String surname;
     private int number;
 
+    //Method  ==> Sınıf::method
     public void numberMethod(){
         System.out.println(this.number);
     }
-
 }

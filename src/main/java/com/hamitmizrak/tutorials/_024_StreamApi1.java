@@ -11,13 +11,14 @@ limit   => limitleme
 count   => sayma
 */
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class _024_StreamApi1 {
-
+public class _024_StreamApi1 implements Serializable {
+public static final long serialVersionUID=1L;
     //Array
     public static String[] strArray() {
         String[] arrayData = {"ankara", "malatya", "istanbul", "eskişehir", "sivas", "malatya", "elazığ", "malatya"};
