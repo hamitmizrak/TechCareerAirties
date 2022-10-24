@@ -1,6 +1,9 @@
 package com.hamitmizrak.project.step1;
 
 public enum EBlog {
+    // admin herşey yapabilir
+    // writer: sadece okuabilir ve yazabilir
+    // user sadece okuyabilir
     ADMIN(1,"admin"),WRITER(2,"writer"),USER(3,"user");
 
     //private 1->parametreli constructora zorlar

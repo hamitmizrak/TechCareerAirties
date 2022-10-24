@@ -2,7 +2,9 @@
 
 ![readme](./picture/readme.jpg)
 
-# Ecodation Java Full Stack Developer -2 (19 Haziran  2022)
+# endspoint
+
+# 
 * [GitHub](https://github.com/hamitmizrak/)
 * 
 ### Gereksinimler

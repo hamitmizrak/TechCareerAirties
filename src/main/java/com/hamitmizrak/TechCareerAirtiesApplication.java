@@ -18,7 +18,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 //@EnableCaching
 
 //Auditor
-@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
+//@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
 
 //exclude:dahil etmemek
 @SpringBootApplication(exclude = {
@@ -40,5 +40,4 @@ public class TechCareerAirtiesApplication {
 
         SpringApplication.run(TechCareerAirtiesApplication.class, args);
     }
-
 }
