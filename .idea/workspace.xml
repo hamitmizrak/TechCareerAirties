@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Spring MVC Bean">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_82_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/blog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory_persist/employee_database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/memory_persist/employee_database.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechCareerAirties.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TechCareerAirties.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/TechCareerAirtiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/TechCareerAirtiesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/BeanConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/BeanDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/BeanDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/BeanMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/BeanMainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/exception/GlobalException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/exception/HamitMizrakException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/exception/HamitMizrakException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/TechCareerAirtiesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/TechCareerAirtiesApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanMainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanMainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +188,7 @@
       <workItem from="1666179471846" duration="740000" />
       <workItem from="1666186272226" duration="16715000" />
       <workItem from="1666247309076" duration="17000" />
-      <workItem from="1666621644083" duration="7330000" />
+      <workItem from="1666621644083" duration="8377000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>

@@ -3,7 +3,10 @@ package com.hamitmizrak;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 import javax.annotation.PostConstruct;
 import java.util.TimeZone;
@@ -23,6 +26,18 @@ import java.util.TimeZone;
 //Auditor
 //@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
 
+//spring boot cache aktif ediyorum
+//redis: caching sağlamak
+//@EnableCaching
+
+//Asenkron açmak
+//@EnableAsync
+
+//React
+//GraphQL: Gereksiz API taşınmasını engeller API: username,password,data,special,longTime,
+
+//Jackson: JSON
+
 //exclude:dahil etmemek
 @SpringBootApplication(exclude = {
         SecurityAutoConfiguration.class,
@@ -32,6 +47,11 @@ import java.util.TimeZone;
 )
 //@SpringBootApplication
 public class TechCareerAirtiesApplication {
+
+  /*  @Async
+    public void dataSupport(){
+
+    }*/
 
     @PostConstruct
     public void init(){
