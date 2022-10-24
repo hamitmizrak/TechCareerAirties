@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 //lombok
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 
 //MVC
 @Controller
@@ -14,7 +14,7 @@ public class BeanMainClass {
     //field
 
     //@Autowired
-  private final  BeanConfig beanConfig;
+    BeanConfig beanConfig;
    /* @Autowired
     public BeanMainClass(BeanConfig beanConfig) {
         this.beanConfig = beanConfig;

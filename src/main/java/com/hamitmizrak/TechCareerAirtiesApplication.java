@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+import javax.annotation.PostConstruct;
+import java.util.TimeZone;
+
 // Mongo aktif etmek icin
 // @EnableMongoRepositories
 
@@ -29,6 +32,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 )
 //@SpringBootApplication
 public class TechCareerAirtiesApplication {
+
+    @PostConstruct
+    public void init(){
+        TimeZone.setDefault(TimeZone.getTimeZone("IST"));
+    }
 
     public static void main(String[] args) {
 

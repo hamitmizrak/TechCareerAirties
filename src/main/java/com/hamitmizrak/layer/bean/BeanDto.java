@@ -18,7 +18,6 @@ public class BeanDto {
     private String beanName;
     private String beanData;
 
-
     //life cycle
     public void initialBean(){
         log.info("bean doğdu");
