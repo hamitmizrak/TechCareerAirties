@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Spring MVC Bean">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/business/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/mvc/ProductMvc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/Deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mvc2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mvc3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mvc4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mvc5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechCareerAirties.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TechCareerAirties.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/TechCareerAirtiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/TechCareerAirtiesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_persist/employee_database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/memory_persist/employee_database.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/Deneme" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/business/Deneme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/TechCareerAirtiesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/TechCareerAirtiesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/bean/BeanDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/spring/TechCareerAirties/src/main/resources",
+    "last_opened_file_path": "D:/spring/TechCareerAirties/src/main/resources/templates",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "c009e43b2842fa6ee22c007951762eb7"
@@ -76,10 +70,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\TechCareerAirties\src\main\resources\templates" />
       <recent name="D:\spring\TechCareerAirties\src\main\resources" />
       <recent name="D:\spring\TechCareerAirties\src\main\java\com\hamitmizrak\oop\abstractx" />
       <recent name="D:\spring\TechCareerAirties\src\main\java\com\hamitmizrak\tutorials" />
-      <recent name="D:\spring\TechCareerAirties\src\main\resources\templates" />
       <recent name="D:\spring\TechCareerAirties\src\main\resources\public.error" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -131,19 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.multithreadingx.MultiProcessing" />
-      <module name="TechCareerAirties" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.multithreadingx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.socket.oneway.Server" />
       <module name="TechCareerAirties" />
@@ -157,6 +138,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in TechCareerAirties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TechCareerAirties" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TechCareerAirtiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TechCareerAirties" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hamitmizrak.TechCareerAirtiesApplication" />
@@ -166,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TechCareerAirties" />
         <item itemvalue="Application.FileClass" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.MultiProcessing (1)" />
-        <item itemvalue="Application.MultiProcessing" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +177,7 @@
       <workItem from="1666179471846" duration="740000" />
       <workItem from="1666186272226" duration="16715000" />
       <workItem from="1666247309076" duration="17000" />
-      <workItem from="1666621644083" duration="8377000" />
+      <workItem from="1666621644083" duration="11437000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
