@@ -9,24 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Spring MVC Bean">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TechCareerAirties_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/entity/RegisterEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/repository/IRegisterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Spring MVC">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/entity/BookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/entity/WriterEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/repository/IBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/repository/IWriterRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Delete.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/blog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory_persist/employee_database.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/business/Deneme" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/Deneme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/exception/GlobalHandlingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/mvc/ProductMvc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/mvc/ProductMvc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/exception/GlobalException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/mvc/ProductMvc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/mvc/ProductMvc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +27,8 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +78,7 @@
       <recent name="D:\spring\TechCareerAirties\src\main\java\com\hamitmizrak\graduationproject\core" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hamitmizrak.layer.data.repository" />
       <recent name="com.hamitmizrak.tutorials" />
       <recent name="com.hamitmizrak.oop.extendsx" />
       <recent name="com.hamitmizrak.oop" />
@@ -190,7 +180,7 @@
       <workItem from="1666679156615" duration="1566000" />
       <workItem from="1666681373274" duration="8070000" />
       <workItem from="1666773640756" duration="4505000" />
-      <workItem from="1666792329482" duration="699000" />
+      <workItem from="1666792329482" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -381,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666207220926</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Spring MVC Bean">
+      <created>1666808989488</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666808989488</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Spring MVC">
+      <created>1666809039764</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1666809039764</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +421,8 @@
     <MESSAGE value="Socket" />
     <MESSAGE value="File Examples continues" />
     <MESSAGE value="Spring MVC Bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC Bean" />
+    <MESSAGE value="Spring MVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,6 +518,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/data/entity/BookEntity.java</url>
+          <line>30</line>
+          <properties class="com.hamitmizrak.layer.data.entity.BookEntity" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
