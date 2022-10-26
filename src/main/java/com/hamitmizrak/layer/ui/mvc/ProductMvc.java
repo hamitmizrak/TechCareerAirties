@@ -43,7 +43,6 @@ public class ProductMvc implements Serializable {
         return "mvc3";
     }
 
-
     // http://localhost:8080/mvc4
     // http://localhost:8080/mvc4/10
     //GetMapping
@@ -57,7 +56,6 @@ public class ProductMvc implements Serializable {
         return "mvc4";
     }
 
-
     // http://localhost:8080/mvc5?price=10
     //GetMapping
     @GetMapping({"/mvc5"})
@@ -69,5 +67,4 @@ public class ProductMvc implements Serializable {
         model.addAttribute("key_mvc", list);
         return "mvc5";
     }
-
 }
