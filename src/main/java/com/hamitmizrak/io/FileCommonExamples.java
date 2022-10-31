@@ -21,7 +21,6 @@ public class FileCommonExamples {
 
     private static File file;
 
-
     //constructor (form.txt defaultta oluşturulsun
     public FileCommonExamples() throws HamitMizrakException {
         String myFilePath=PATH.concat("\\form.txt");
@@ -204,8 +203,6 @@ public class FileCommonExamples {
             }
         }
     }
-
-
 
 
     public static void main(String[] args) throws HamitMizrakException {
