@@ -9,12 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Api">
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Client">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/profile/IChooise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/profile/ProfileRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/profile/Sayisal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/profile/Sozel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memory_persist/blog_database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/memory_persist/blog_database.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_persist/blog_database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/memory_persist/blog_database.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/impl/ProductClientApiRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/impl/ProductClientApiRestImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/rest/Deneme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/rest/impl/ProductClientApiRestImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/rest/impl/ProductClientApiRestImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +33,8 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -184,7 +191,7 @@
       <workItem from="1666773640756" duration="4505000" />
       <workItem from="1666792329482" duration="2853000" />
       <workItem from="1667154815399" duration="668000" />
-      <workItem from="1667220212443" duration="4587000" />
+      <workItem from="1667220212443" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -431,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667230469254</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Client">
+      <created>1667231197885</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1667231197885</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +487,8 @@
     <MESSAGE value="File Roles" />
     <MESSAGE value="File Data" />
     <MESSAGE value="Api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Api" />
+    <MESSAGE value="Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
