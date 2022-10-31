@@ -3,11 +3,10 @@ package com.hamitmizrak.layer.ui.rest.impl;
 import com.hamitmizrak.layer.business.ProductDto;
 import com.hamitmizrak.layer.ui.rest.IProductApiRest;
 import lombok.extern.log4j.Log4j2;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,4 +64,43 @@ public class ProductServerApiRestImpl implements IProductApiRest {
         }
         return list;
     }
+
+
+    // http://localhost:8080/api/v1/rest/data5
+    @GetMapping("rest/data5")
+    public ResponseEntity<ProductDto> getRest5(){
+        ProductDto productDto=ProductDto.builder()
+                .id(10L)
+                .name("ürün adı")
+                .price(44)
+                .build();
+        //return ResponseEntity.ok(productDto);
+        //return ResponseEntity.ok().body(productDto);
+        //return ResponseEntity.status(200).body(productDto);
+        return ResponseEntity.status(HttpStatus.OK).body(productDto);
+    }
+
+
+    // http://localhost:8080/api/v1/rest/data6/4
+    @GetMapping({"rest/data6","rest/data6/{id}"})
+    public ResponseEntity<?> getRest6(@PathVariable(name="id",required = false) Long id){
+        ProductDto productDto=ProductDto.builder()
+                .id(id)
+                .name("ürün adı")
+                .price(44)
+                .build();
+        if(id==null)
+            return ResponseEntity.notFound().build();
+        else if(id==0)
+            return ResponseEntity.badRequest().build();
+        return ResponseEntity.ok(productDto);
+    }
+
+    // http://localhost:8080/api/v1/rest/cors
+    @GetMapping("rest/cors")
+    public String getRest7(){
+
+        return "Merhabalar ben Java Api'dan geldim";
+    }
+
 }
