@@ -99,8 +99,15 @@ public class ProductServerApiRestImpl implements IProductApiRest {
     // http://localhost:8080/api/v1/rest/cors
     @GetMapping("rest/cors")
     public String getRest7(){
-
         return "Merhabalar ben Java Api'dan geldim";
+    }
+
+    // http://localhost:8080/api/v1/rest/data8
+    @GetMapping("rest/data8")
+    public ResponseEntity<?> getRest8(){
+     return ResponseEntity.ok()
+             .header("rest_header","@RestController")
+             .body("@RestController Body");
     }
 
 }

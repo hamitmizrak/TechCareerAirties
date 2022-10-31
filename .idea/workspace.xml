@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="Profile">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/bean/OpenApiConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/apijquery.html" afterDir="false" />
+    <list default="true" id="7e99b57f-79f5-4572-9764-94db9abce0c9" name="Changes" comment="jquery RestController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/blog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memory_persist/blog_database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/memory_persist/blog_database.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/impl/ProductClientApiRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/impl/ProductClientApiRestImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/impl/ProductServerApiRestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/layer/ui/rest/impl/ProductServerApiRestImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/rest/impl/ProductServerApiRestImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hamitmizrak/layer/ui/rest/impl/ProductServerApiRestImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +183,7 @@
       <workItem from="1666773640756" duration="4505000" />
       <workItem from="1666792329482" duration="2853000" />
       <workItem from="1667154815399" duration="668000" />
-      <workItem from="1667220212443" duration="7920000" />
+      <workItem from="1667220212443" duration="8800000" />
     </task>
     <task id="LOCAL-00001" summary="spring init first commit">
       <created>1666019967669</created>
@@ -447,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667232198322</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="jquery RestController">
+      <created>1667236197997</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236197997</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="spring init first commit" />
     <MESSAGE value="properties" />
     <MESSAGE value="String , cast , Scanner , StringBuilder" />
     <MESSAGE value="java core continue..." />
@@ -491,7 +494,8 @@
     <MESSAGE value="Api" />
     <MESSAGE value="Client" />
     <MESSAGE value="Profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile" />
+    <MESSAGE value="jquery RestController" />
+    <option name="LAST_COMMIT_MESSAGE" value="jquery RestController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

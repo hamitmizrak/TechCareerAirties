@@ -38,4 +38,17 @@ public class ProductClientApiRestImpl  {
         return productDtoList;
     }
 
+
+    // http://localhost:8080/client/data8
+    @GetMapping("client/data8")
+    @ResponseBody
+    public String getRest8(){
+        String URL="http://localhost:8080/api/v1/rest/data8";
+        RestTemplate restTemplate=new RestTemplate();
+        ResponseEntity<String> responseEntity=restTemplate.exchange(URL, HttpMethod.GET, HttpEntity.EMPTY,String.class);
+        String gelenData=responseEntity.getHeaders().getFirst("rest_header");
+        String body= responseEntity.getBody();
+        return "@Controller"+body+" "+gelenData;
+    }
+
 }
