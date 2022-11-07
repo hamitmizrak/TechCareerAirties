@@ -1,4 +1,9 @@
-package com.hamitmizrak.io;
+package com.hamitmizrak;
+
+import com.hamitmizrak.io.ERoles;
+import com.hamitmizrak.io.FileDataClass;
+import com.hamitmizrak.io.FileStaticData;
+import com.hamitmizrak.io.HamitMizrakException;
 
 import java.io.*;
 import java.text.SimpleDateFormat;
@@ -140,9 +145,9 @@ public class FileCommonExamples {
         System.out.println("1-)ADMIN(D+,W+,R+)\n2-)WRITER(D-,W+,R+)\n3-)USER(D-, W- ,R+) d=delete w=write r=read");
         Scanner klavye=new Scanner(System.in);
         if(MY_ROLES==1){
-            System.out.println("Rolünüz: "+ERoles.ADMIN.getValue().toString());
+            System.out.println("Rolünüz: "+ com.hamitmizrak.io.ERoles.ADMIN.getValue().toString());
         }else if(MY_ROLES==2){
-            System.out.println("Rolünüz: "+ERoles.WRITER.getValue().toString());
+            System.out.println("Rolünüz: "+ com.hamitmizrak.io.ERoles.WRITER.getValue().toString());
         }else if(MY_ROLES==3){
             System.out.println("Rolünüzü değiştiremezsiniz: ");
             System.out.println("Devam etmek için herhangi bir tuşa basınız");
@@ -156,11 +161,11 @@ public class FileCommonExamples {
         MY_ROLES=roles;
 
         if(MY_ROLES==1){
-            System.out.println("Rolünüz artık "+ERoles.ADMIN.getValue().toString()+" oldu");
+            System.out.println("Rolünüz artık "+ com.hamitmizrak.io.ERoles.ADMIN.getValue().toString()+" oldu");
         }else if(MY_ROLES==2){
-            System.out.println("Rolünüz artık "+ERoles.WRITER.getValue().toString()+" oldu");
+            System.out.println("Rolünüz artık "+ com.hamitmizrak.io.ERoles.WRITER.getValue().toString()+" oldu");
         }else if(MY_ROLES==3){
-            System.out.println("Rolünüz artık "+ERoles.USER.getValue().toString()+" oldu");
+            System.out.println("Rolünüz artık "+ com.hamitmizrak.io.ERoles.USER.getValue().toString()+" oldu");
         }else{
             System.out.println("Yetkilendirme dışı");
         }
@@ -254,11 +259,11 @@ public class FileCommonExamples {
 
                 case 5:
                     if(MY_ROLES==1){
-                        System.out.println("Rolünüz: "+ERoles.ADMIN.getValue().toString());
+                        System.out.println("Rolünüz: "+ com.hamitmizrak.io.ERoles.ADMIN.getValue().toString());
                     }else if(MY_ROLES==2){
-                        System.out.println("Rolünüz: "+ERoles.WRITER.getValue().toString());
+                        System.out.println("Rolünüz: "+ com.hamitmizrak.io.ERoles.WRITER.getValue().toString());
                     }else if(MY_ROLES==3){
-                        System.out.println("Rolünüz: "+ERoles.USER.getValue().toString());
+                        System.out.println("Rolünüz: "+ ERoles.USER.getValue().toString());
                     }else{
                         System.out.println("Yetkilendirme dışı");
                     }

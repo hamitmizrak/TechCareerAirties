@@ -1,4 +1,4 @@
-package com.hamitmizrak.io;
+package com.hamitmizrak;
 
 //kendi exception oluşturdum
 public class HamitMizrakException extends Exception{

@@ -1,4 +1,4 @@
-package com.hamitmizrak.io;
+package com.hamitmizrak;
 
 //975
 public enum ERoles {
